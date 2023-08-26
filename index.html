@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="images/devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2befb0751e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Edie Homepage</title>
+
+
+  </head>
+  <body>
+
+    <div class="mobile-navigation" id="mobile-navigation">
+      
+      <div class="mobile-navigation--header">
+          <h4>EDIE</h4>
+
+
+        <div class="close-button" onclick="toggleMobileNavigation()">
+          <button>
+            <i class="fa-solid fa-close"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+          <ul>
+              <li><a href="#" class="mobile-navigation-item navigation--item__active" >Home</a></li>
+              <li><a href="#" class="mobile-navigation-item">Collection</a></li>
+              <li><a href="#" class="mobile-navigation-item">About</a></li>
+              <li><a href="#" class="mobile-navigation-item">Contact</a></li>
+          </ul>
+      </div>
+    
+    </div>
+
+    <div class="hero-container">
+      <div class="hero-area">
+        <header class="header">
+          <a href="#" class="main-logo">Edie</a>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+              <li class="navigation__item"><a href="#" class="navigation__link">Services</a></li>
+              <li class="navigation__item"><a href="#" class="navigation__link">Our Works</a></li>
+              <li class="navigation__item"><a href="#" class="navigation__link">Clients</a></li>
+              <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+            </ul>
+          </nav>
+
+            <div class="menu-button" onclick="toggleMobileNavigation()">
+                <button>
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+              </div>
+        </header>
+
+        <section class="main">
+          <div class="main__content">
+            <p class="main__question">Unhappy with your website?</p>
+            <h1 class="main__heading"> We create beautiful and fast web services</h1>
+          </div>
+          
+          <img src="images/heroImage.jpg" alt="heroimage" class="hero__image">
+
+          <div class="main__content">
+            <h1 class="main__heading sub_paragraph">Story, emotion <br>and purpose</h1>
+            <p class="sub__heading">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+            <div class="email__contact">
+              <p class="email__contact__heading">Want us to contact you?</p>
+              <div class="email__contact__input">
+                <input type="email" placeholder="Email...">
+                <button type="submit" class="email__contact__button">Join</button>
+              </div>
+              
+            </div>
+          </div>
+         
+        </section>
+
+      </div>
+    </div>
+
+    <div class="sub-container">
+      <section class="section-container offer">
+        <header class="offer__heading">
+          <h2 class="heading__title heading-margin">We offer high<br>demand services  </h2>
+        </header>
+        <div class="offer__content">
+           <div class="offer__card">
+              <div class="card__icon ui-design">
+                <i class="fa-solid fa-pen"></i>
+              </div>
+              
+              <p class="card__title">UI/UX Design</p>
+              <p class="card__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+              <button class="card__button">Get started</button>
+           </div>
+  
+           <div class="offer__card ">
+              <div class="card__icon frontend">
+                <span><></span>
+              </div>
+              
+              <p class="card__title">Front End</p>
+              <p class="card__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+              <button class="card__button">Get started</button>
+           </div>
+  
+           <div class="offer__card">
+              <div class="card__icon backend">
+                <i class="fa-solid fa-hard-drive"></i>
+              </div>
+              
+              <p class="card__title">Back End</p>
+              <p class="card__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+              <button class="card__button">Get started</button>
+           </div>
+        </div>
+         
+      </section>
+
+      <section class="section-container design">
+        <h2 class="heading__title heading-margin">Good design means<br>good business</h2>
+        <div class="design__content">
+          <div class="design__item first__item">
+            <img src="images/smarthome.jpg" class="design__item__image" alt="smarthome">
+            <p class="design__item__name">Full stack application</p>
+            <p class="design__item__title">Smart home dashboard</p>
+          </div>
+
+          <div class="design__item">
+            <img src="images/onboard.png" class="design__item__image" alt="onboard">
+            <p class="design__item__name">UX/UI design</p>
+            <p class="design__item__title">Onboard application</p>
+          </div>
+
+          <div class="design__item third__item">
+            <img src="images/booking.png" class="design__item__image" alt="booking">
+            <p class="design__item__name">Mobile Application</p>
+            <p class="design__item__title">Booking system</p>
+          </div>
+
+          <div class="design__item">
+            <img src="images/juice-product.png" class="design__item__image" alt="juice-product">
+            <p class="design__item__name">Front End application</p>
+            <p class="design__item__title">Juice product homepage</p>
+            <a href="#" class="design__more">see more <i class="fa-solid fa-arrow-right-long fa-2xs"></i></a>
+          </div>
+          
+        </div>
+     
+      </section>
+
+      <section class="section-container team" >
+        <main class="team__info">
+          <p class="team__heading">Meet the team</p>
+          <h2 class="heading__title">We are chilled and a laidback<br>team</h2>
+          <p class="team__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </main>
+
+        <figure class="team__img">
+          <div class="team__img-left">
+            <img src="images/person3.png" alt="">
+          </div>
+
+          <div class="team__img-right">
+            <img src="images/person1.png" alt="">
+            <img src="images/person2.png" alt="">
+          </div>
+        </figure>
+      </section>
+
+      <section class="section-container testimony">
+        <h2 class="heading__title ">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”  </h2>
+        <div class="testimony__profile">
+          <img src="images/person4.png" alt="">
+          <div class="profile__info">
+            <span class="profile__name">Carlos Tan</span>
+            <p class="profession">The becorate Gatsby</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    
+    <footer>
+      <div class="footer__flex-group">
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Home</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Services</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Our Works</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Clients</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contact</a></li>
+          </ul>
+        </nav>
+  
+        <figure class="footer__logos">
+          <a href="#" class="main-logo footer-logo">Edie</a>
+          <div class="social__media-logo">
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+          </div>
+         
+        </figure>
+  
+        <div class="footer__contact">
+          <p class="email__contact__heading">Want us to contact you?</p>
+          <div class="email__contact__input">
+            <input type="email" placeholder="Email...">
+            <button type="submit" class="email__contact__button">Join</button>
+          </div>
+          
+        </div>
+      </div>
+      
+      <p class="footer__credit">created by <span>Erwin John A. Jerusalem</span> - devChallenges.io</p>
+      
+    </footer>
+
+    
+   
+  </body>
+
+  <script>
+    function toggleMobileNavigation(){
+   var element =document.getElementById("mobile-navigation");
+
+   if  (element.classList.contains("mobile-navigation__open")){
+     element.classList.remove("mobile-navigation__open");
+   }else{
+     element.classList.add("mobile-navigation__open");
+   }
+   
+ }
+</script>
+</html>
